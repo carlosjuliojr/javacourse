@@ -66,7 +66,6 @@ public class StreamApp {
 		System.out.println(upperCase);
 		System.out.println(alpha);
 		alpha.stream().filter(x -> x.endsWith("d")).collect(Collectors.toList()).forEach(System.out::println);
-		
 	
 	}
 
@@ -76,9 +75,8 @@ public class StreamApp {
 //		app.filter();
 //		app.order();
 //		app.transform();
-//		app.transform();
 //		app.limit();
-		app.alphaMethod();
+//		app.alphaMethod();
 
 
 	}
